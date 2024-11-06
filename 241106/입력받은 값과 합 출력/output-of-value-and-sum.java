@@ -9,6 +9,6 @@ public class Main {
 
         int result = a+b;
 
-        System.out.print("%d %d %d",a, b, result);
+        System.out.printf("%d %d %d",a, b, result);
     }
 }
