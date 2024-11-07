@@ -10,7 +10,7 @@ public class Main {
             System.out.print("no");
         } else if(n >= 3000){
             System.out.print("book");
-        } else{
+        } else if(n >= 1000){
             System.out.print("mask");
         }
     }
