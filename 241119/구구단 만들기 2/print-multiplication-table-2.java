@@ -9,7 +9,7 @@ public class Main {
             for(int i = b; i >= a; i--){
             
                 System.out.print(i + " * " + j + " = " + (i*j));
-                if(i > b-a)
+                if(i > a)
                     System.out.print(" / ");
             }
             System.out.println();
