@@ -23,7 +23,7 @@ public class Main {
             
         
         avg = (float) sum_1 / cnt;
-        System.out.print(sum + " " + avg);
+        System.out.printf("%d %.1f", sum, avg);
 
     }
 }
