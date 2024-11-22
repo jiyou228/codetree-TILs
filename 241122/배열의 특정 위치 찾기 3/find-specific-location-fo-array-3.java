@@ -4,7 +4,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int[] arr = new int[100];
-        int sum = 0;
         int n = 0;
 
 
@@ -12,13 +11,10 @@ public class Main {
             arr[i] = sc.nextInt();
 
             if(arr[i] == 0){
-                if(i >= 3){
-                    sum = arr[i-1] + arr[i-2] + arr[i-3];
-                }
+                n = i;
                 break;
             }
-            
         }
-        System.out.print(sum);
+        System.out.print(arr[n-1] + arr[n-2] + arr[n-3]);
     }
 }
