@@ -18,9 +18,9 @@ public class Main {
         str2_arr[0] = ch0;
         str2_arr[1] = ch1;
 
-        str2_arr = String.valueOf(str2_arr);
+        str2 = String.valueOf(str2_arr);
 
-        System.out.print(str2_arr);
+        System.out.print(str2);
 
     }
 }
